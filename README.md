@@ -18,3 +18,8 @@
 - Here is the link to the video for the sound sensor. [Sound sensor](https://photos.app.goo.gl/k5L6Rtpti5GeLmVY8)
 - I got it to work a little bit better, but it still can not “hear” a snap of the fingers.
 - It would have been very covenant to just have the sound board next to the LED hidden inside the dome.
+
+## #3
+
+## #4
+- I think that the RGB + Button code from lab7 is already efficient. You can add any RGB color value to the array and it will not break anything. The code also uses variables to control how fast the light fades. I also used a function to set the pin values to help keep the code a little cleaner.
