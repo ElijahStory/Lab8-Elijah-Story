@@ -22,6 +22,11 @@
 - It would have been very covenant to just have the sound board next to the LED hidden inside the dome.
 
 ## #3
+- I misread the instructions and performed the wrong task. I will try and get the proper thing up soon. This is what I did instead. I simply combined the button with the motion sensor.
+- Here is the video [sensor and button](https://photos.app.goo.gl/m6CFtA6b3D8oZ75K6)
+- Below is the diagram of the wiring and the setup.
+<img src="images/motionButton-diagram.jpg" width = 640>
+<img src="images/motionButton-setup.jpg" width = 640>
 
 ## #4
 - I think that the RGB + Button code from lab7 is already efficient. You can add any RGB color value to the array and it will not break anything. The code also uses variables to control how fast the light fades. I also used a function to set the pin values to help keep the code a little cleaner. A direct link to the code can be found [HERE](https://github.com/ElijahStory/Lab7-Elijah-Story/blob/main/Elijah-Story-RGB-Button/Elijah-Story-RGB-Button.ino)
