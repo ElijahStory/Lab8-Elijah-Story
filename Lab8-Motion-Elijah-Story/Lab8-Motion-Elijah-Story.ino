@@ -1,3 +1,10 @@
+//Elijah Story
+//11-6-2020
+//NMD211 Lab8
+
+//This is example code for the motion sensor.
+//All the code is taken from: https://lastminuteengineers.com/pir-sensor-arduino-tutorial/
+
 int ledPin = 13;                // choose the pin for the LED
 int inputPin = 8;               // choose the input pin (for PIR sensor)
 int pirState = LOW;             // we start, assuming no motion detected
