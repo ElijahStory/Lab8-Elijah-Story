@@ -8,5 +8,5 @@
 <img src="images/sound-sensor.jpg" width = 640>
 
 - Here is the link to the video for the sound sensor. [Sound sensor](https://photos.app.goo.gl/Ca41d4Js2V8ab6Lr6)
-- Like stated above, I can not get the sensitivity to work properly.
+- I got it to work a little bit better, but it still can not “hear” a snap of the fingers.
 - It would have been very covenant to just have the sound board next to the LED hidden inside the dome.
