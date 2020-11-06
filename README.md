@@ -7,6 +7,6 @@
 - Below is the diagram of the wiring. The sound sensor gets 5V power from the arduino and is also connected to ground. The signal from the sensor goes to analog pin A2. The LED gets power from pin ~10 that goes through a 330 resistor. The negative pin of the LED goes to ground.
 <img src="images/sound-sensor.jpg" width = 640>
 
-- Here is the link to the video for the sound sensor. [Sound sensor](https://photos.app.goo.gl/Ca41d4Js2V8ab6Lr6)
+- Here is the link to the video for the sound sensor. [Sound sensor](https://photos.app.goo.gl/k5L6Rtpti5GeLmVY8)
 - I got it to work a little bit better, but it still can not “hear” a snap of the fingers.
 - It would have been very covenant to just have the sound board next to the LED hidden inside the dome.
