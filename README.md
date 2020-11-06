@@ -4,6 +4,7 @@
 - I am going to use the motion detector to detect if there is anything moving that might “scare” the lantern. 
 - Below is the diagram of the wiring. The motion detector gets 5V power from the arduino and is also connected to ground. The output from the detector goes to pin 8. The LED gets power from pin 13 that goes through a 330 resistor. The negative pin of the LED goes to ground.
 <img src="images/motion-detector.jpg" width = 640>
+<img src="images/motion-setup.jpg" height = 640>
 
 - Here is the link to the video for the motion detector. [motion detector](https://photos.app.goo.gl/KPLEsoRSF497ePZUA)
 - The sensor works and seems to be reliable if the motion is large enough and far away.
@@ -14,6 +15,7 @@
 - At first I wanted to use the sound sensor so that I could conceal it in the lantern without it being seen while still able to give input. As I describe in the code, the sensitivity is not very high or I could not figure out how to increase it. So the code does work, however it is not helpful for the lantern.
 - Below is the diagram of the wiring. The sound sensor gets 5V power from the arduino and is also connected to ground. The signal from the sensor goes to analog pin A2. The LED gets power from pin ~10 that goes through a 330 resistor. The negative pin of the LED goes to ground.
 <img src="images/sound-sensor.jpg" width = 640>
+<img src="images/sound-setup.jpg" height = 640>
 
 - Here is the link to the video for the sound sensor. [Sound sensor](https://photos.app.goo.gl/k5L6Rtpti5GeLmVY8)
 - I got it to work a little bit better, but it still can not “hear” a snap of the fingers.
