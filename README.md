@@ -22,4 +22,4 @@
 ## #3
 
 ## #4
-- I think that the RGB + Button code from lab7 is already efficient. You can add any RGB color value to the array and it will not break anything. The code also uses variables to control how fast the light fades. I also used a function to set the pin values to help keep the code a little cleaner.
+- I think that the RGB + Button code from lab7 is already efficient. You can add any RGB color value to the array and it will not break anything. The code also uses variables to control how fast the light fades. I also used a function to set the pin values to help keep the code a little cleaner. A direct link to the code can be found [HERE](https://github.com/ElijahStory/Lab7-Elijah-Story/blob/main/Elijah-Story-RGB-Button/Elijah-Story-RGB-Button.ino)
