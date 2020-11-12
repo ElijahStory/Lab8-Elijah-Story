@@ -22,14 +22,14 @@ void setup() {
 }
 
 void loop() {
-  Serial.println(state);
-  button = digitalRead(buttonInput);
-  if (button == HIGH) {
-    if(button != buttonLast){
-      state = !state;
+  Serial.println(state);              //prints the "on/off" sensor status
+  button = digitalRead(buttonInput);  //gets button input
+  if (button == HIGH) {               //if the button is pressed
+    if(button != buttonLast){         //if the button is opposite last status
+      state = !state;                 //changes the "state" of state
     }
   }
-  buttonLast = button;
+  buttonLast = button;                //updates the last button status
 
   if (!state) {
     digitalWrite(buttonLed, LOW);  // turn button LED OFF
