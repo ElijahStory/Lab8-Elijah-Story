@@ -8,12 +8,15 @@ int buttonInput = 7;            // input for button
 
 int val = 0;                    // variable for reading the pin status
 boolean state = false;          // if the sensor input is "on"
-int button = 0;                 //if the button is pressed
-int buttonLast = 0;             //stores what the button was last pressed
-int level;
+int button = 0;                 // if the button is pressed
+int buttonLast = 0;             // stores what the button was last pressed
+int level = 100;                // stores the random level of power for LED
+double curTime;
+double pastTime = 0;
+int randDelay;
 
 void setup() {
-  pinMode(lanternLed, OUTPUT);   // declare LED as output
+  pinMode(lanternLed, OUTPUT);  // declare LED as output
   pinMode(sensorInput, INPUT);  // declare sensor as input
   pinMode(buttonInput, INPUT);  // declare sensor as input
 
@@ -35,11 +38,17 @@ void loop() {
   }
 
   val = digitalRead(sensorInput);  // read input value
+  Serial.println(val);
 
-  if (val == HIGH) { // check if the input is HIGH
+  if (val == LOW) { // check if the input is HIGH
     if (state) {
-      level = random(100,255);
-      digitalWrite(lanternLed, level);  // turn lantern LED ON
+      analogWrite(lanternLed, level);  // turn lantern LED ON
+      curTime = millis();
+      if(curTime - pastTime >= randDelay){
+        level = random(50,255);
+        randDelay = random(50,200);
+        pastTime = curTime;
+      }
     }
 
   } else {
