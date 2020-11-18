@@ -22,9 +22,9 @@
 - It would have been very covenant to just have the sound board next to the LED hidden inside the dome.
 
 ## #3
-- I misread the instructions and performed the wrong task. I will try and get the proper thing up soon. This is what I did instead. I simply combined the button with the motion sensor.
+- One LED turns on any time the motion sensor sends an output signal, and the other outputs the same signal, but only when it is “on”. The button turns the second LED “on/off”.
 - Here is the video [sensor and button](https://photos.app.goo.gl/m6CFtA6b3D8oZ75K6)
-- Below is the diagram of the wiring and the setup.
+- Below is a diagram of the wiring. The motion sensor simply gets power from a 5v supply and is connected to ground. Its output is connected to pin 8. For the button, the power runs to the button and waits. Once the button is pressed, the power splits and goes to pin 7 and passes through a 10k resistor before grading to ground. There are two LEDs. They both have the power come from a pin, pass through a 330 resistor and out to ground. The only difference is, one LED gets its power from pin 13, and the other from 12.
 <img src="images/motionButton-diagram.jpg" width = 640>
 <img src="images/motionButton-setup.jpg" width = 640>
 
