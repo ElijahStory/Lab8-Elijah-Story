@@ -30,3 +30,12 @@
 
 ## #4
 - I think that the RGB + Button code from lab7 is already efficient. You can add any RGB color value to the array and it will not break anything. The code also uses variables to control how fast the light fades. I also used a function to set the pin values to help keep the code a little cleaner. A direct link to the code can be found [HERE](https://github.com/ElijahStory/Lab7-Elijah-Story/blob/main/Elijah-Story-RGB-Button/Elijah-Story-RGB-Button.ino)
+
+## #5
+This is the current state of my lantern. I have a button set up to manually turn the lantern on/off. When the lantern is on, it has a flickering effect. While it is on, the motion sensor detects somebody, the light turns off for 3 seconds. After the time has passed, it turns back on and flickers.
+
+- Here is the link to the video showing the lantern. [Lantern video](https://photos.app.goo.gl/UeqtupwXRJcqedDh6)
+- Below is a diagram of the wiring. The motion sensor simply gets power from a 5v supply and is connected to ground. Its output is connected to pin 8. For the button, the power runs to the button and waits. Once the button is pressed, the power splits and goes to pin 7 and passes through a 10k resistor before grading to ground. The LED has the power that comes from pin 11, passes through a 330 resistor and out to ground.
+<img src="images/lantern-diagram.jpg" width = 640>
+<img src="images/out-lantern.jpg" height = 640>
+<img src="images/in-lantern.jpg" height = 640>
